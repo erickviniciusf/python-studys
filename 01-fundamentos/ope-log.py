@@ -2,8 +2,10 @@
 # SÃO OPERADORES UTILIZADOS EM CONJUNTOS COM OS OPERADOREDORES DE COMPARAÇÕES
 
 saldo = 1000
-saque = 200
-limite = 100
+saque = 250
+limite = 200
+conta_especial = True
+
 
 print(saldo >= saque)
 print(saque <= limite)
@@ -37,3 +39,11 @@ print(not "saque 1500;")
 
 print(not "")
 #String vazia é false, logo, com o not vira true
+
+#PARENTESES 
+
+print(saldo >= saque and saque <= limite or conta_especial and saldo >=saque)
+#Correto porem dificil de ler por confusão na hora de montar
+
+print((saldo >= saque and saque <= limite) or (conta_especial and saldo >= saque))
+#Bem melhor a leitura devido a utilização de parenteses

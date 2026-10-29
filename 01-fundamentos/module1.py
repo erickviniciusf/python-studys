@@ -42,5 +42,3 @@ print(float(1.0323223))'''
 idade = input("Informe a sua idade ")
 
 print(f"{nome}, Seja bem vindo ao MasterClass DIO. Vi que voce tem {idade} anos, pode seguir")'''
-
-float(a)
