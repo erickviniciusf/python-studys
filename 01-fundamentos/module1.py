@@ -38,7 +38,9 @@ print(float(1.0323223))'''
 #FUNÇÃO PRINT 
     # É usado quando queremos exibir dados na saida padrão (tela) >> recebe um argumento obrigatório do tipo varargs de objetos e 4 argumentos argumentos opcionais (sep, end, file e flush)
 
-nome = input("Informe o seu nome: ")
+'''nome = input("Informe o seu nome: ")
 idade = input("Informe a sua idade ")
 
-print(f"{nome}, Seja bem vindo ao MasterClass DIO. Vi que voce tem {idade} anos, pode seguir")
+print(f"{nome}, Seja bem vindo ao MasterClass DIO. Vi que voce tem {idade} anos, pode seguir")'''
+
+float(a)
